@@ -1,0 +1,67 @@
+/* Phone size */
+.inner {
+  width: 100%;
+  margin: 0 auto; }
+
+@media (min-width: 1300px) {
+  .inner {
+    width: 1160px; } }
+h1 {
+  color: #eeeeee; }
+
+.logo {
+  background: url("../../images/logo.svg");
+  width: 300px;
+  height: 100px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.platforms {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .platforms li.ios {
+    background: url("../../images/iphone-mockup.png");
+    background-size: 250px;
+    width: 250px;
+    padding-bottom: 300px;
+    text-align: center;
+    height: 30px;
+    background-position: center 30px;
+    background-repeat: no-repeat; }
+  .platforms li.pebble {
+    background: url("../../images/pebble-mockup.png");
+    background-size: 150px;
+    width: 200px;
+    padding-bottom: 300px;
+    text-align: center;
+    height: 30px;
+    background-position: center 30px;
+    background-repeat: no-repeat; }
+  .platforms li {
+    display: block;
+    float: left;
+    width: 200px; }
+
+.content {
+  padding: 20px 0; }
+
+.primary-intro {
+  padding-bottom: 0;
+  color: #eeeeee; }
+  .primary-intro p.description {
+    margin-bottom: 50px; }
+
+body {
+  background: #eeeeee; }
+
+.primary-intro {
+  background: #666666; }
+
+header {
+  padding: 20px 0;
+  border-bottom: 5px solid #2d2f91;
+  outline: #eeeeee 8px solid; }
